@@ -12,11 +12,16 @@
     "gatsby-plugin-react-helmet": "^3.1.8",
     "gatsby-plugin-sharp": "^2.2.25",
     "gatsby-source-filesystem": "^2.1.26",
+    "gatsby-source-graphql": "^2.1.15",
     "gatsby-transformer-sharp": "^2.2.16",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

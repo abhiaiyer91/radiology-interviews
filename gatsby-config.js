@@ -27,8 +27,14 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "Location",
+        fieldName: "interviews",
+        url:
+          "https://us-central1-eventstack-prod.cloudfunctions.net/radiology-data",
+      },
+    },
   ],
 }
